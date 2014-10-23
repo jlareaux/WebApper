@@ -1,0 +1,212 @@
+/* 
+ * Webapper Styles
+ *
+ */
+ 
+ul.filelist > li {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+ul.filelist > li .delete {
+	display: block;
+	position: relative;
+	margin-bottom: -20px;
+	z-index: 99;
+}
+ 
+/* Softphone */
+#softphone .dropdown-menu {
+	padding: 10px;
+	width: 175px;
+}
+#agentSalesQueue {
+	margin-left: 10px;
+}
+ 
+/* Calendar */
+.cal-control {
+	margin-bottom: 10px;
+}
+.cal-control .dropdown-menu li {
+	padding: 0 10px;
+}
+.cal-control .dropdown-menu li input {
+	margin-top: -2px;
+	margin-right: 5px;
+}
+#calendar .popover {
+	max-width: 280px;
+	width: 200px;
+}
+
+#calendar .fc-view {
+	overflow: visible;
+}
+#calendar .slots_link {
+	border: none;
+	background-color: inherit !important;
+	color: #333 !important;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#calendar .fc-event {
+	border-color: #CCC;
+}
+
+
+#calendar .fc-grid .slots_link {
+	width: 100px !important;
+	margin-top: -20px;
+	margin-left: 5px;
+}
+
+#calendar .fc-agenda .slots_link {
+	padding: 7px 4px;
+	text-align: center;
+}
+#calendar .fc-view-agendaWeek .slots_link {
+}
+#calendar .fc-view-agendaDay .slots_link {
+}
+
+#calendar .fc-grid .fc-day-number {
+	font-weight: bold;
+}
+/* END: Calendar */
+
+ 
+/* Service Single */
+.slot .control-group {
+	display: inline-block;
+}
+.slot .control-group .controls {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.slot .control-group label {
+	width: auto;
+}
+.slot .add_slot {
+	margin-left: 127px;
+	margin-right: 5px;
+}
+.slot .remove_slot {
+	margin-right: 20px;
+}
+/* END: Service Single */
+ 
+ 
+#loadingBar {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 20%;
+	margin-left: -10%;
+	z-index: 9999;
+}
+#loadingBar .bar {
+	width: 100%;
+}
+
+ul.context-menu {
+	position: absolute;
+}
+ul.context-menu.in {
+	display: block;
+}
+#prospect_indexcontextMenu > li.divider:last-child {
+	display: none;
+}
+.modal form {
+	margin-bottom: 0px;
+}
+.modal.fade.in.dock {
+	margin-right: 0;
+	margin-left: 0;
+	top: inherit;
+	left: inherit;
+	right: 10px;
+	bottom: 0%;
+	border: 0;
+}
+.modal.fade.in.dock .modal-header {
+	background-color: #f5f5f5;
+}
+.modal.fade.in.minimize {
+	margin-right: 0;
+	margin-left: 0;
+	top: inherit;
+	left: inherit;
+	right: 10px;
+	bottom: 0%;
+	border: 0;
+	height: 49px;
+	width: 430px;
+	background-color: #f5f5f5;
+}
+
+.modal-header .dock,
+.modal-header .minimize {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	margin-top: 2px;
+	margin-right: 5px;
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+
+/* [RecordSingle] Shortcode */
+form .accordion {
+	margin-bottom: 5px;
+}
+form .accordion-heading {
+	background-color: #F2F2F2;
+}
+form .accordion-heading .accordion-toggle {
+	font-weight: bold;
+	margin-right: 55px;
+}
+form .accordion-heading input {
+	float: right;
+	margin: 3px;
+}
+.accordion2col {
+	float: left;
+	width: 50%;
+	padding-left: 7px;
+	padding-right: 0px;
+	  -moz-box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.accordion2col:first-child {
+	padding-left: 0px;
+	padding-right: 8px;
+}
+
+.accordion2col label {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+.accordion2col label.radio.inline,
+.accordion2col label.checkbox.inline {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.accordion2col input {
+	margin-bottom: 5px !important;
+}
+.accordion + label, .accordion + input, .accordion + textarea, .accordion + select {
+	margin-top: 15px;
+}

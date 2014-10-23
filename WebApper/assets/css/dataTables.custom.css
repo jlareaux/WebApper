@@ -1,0 +1,116 @@
+/*
+ * CSS to integrate Datables with Twitter Bootstrap
+ * 
+ */
+ 
+#adsContextMenu.dropdown-menu .divider,
+#ads_actions.dropdown-menu .divider {
+	margin: 5px 1px;
+}
+
+/* dataTable Rows */
+.no_highlight {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: moz-none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+
+/* dataTable Controls */
+#dt_actions, #dt_colvis {
+	margin-bottom: 20px;
+}
+#dt_info {
+	float: left;
+	line-height: 30px;
+}
+#dt_pagination  {
+	float: right;
+}
+#dt_pagination .pagination {
+	margin: 0;	
+}
+/* ColVis dropdown */
+#dt_colvis .dropdown-menu label {
+	margin: 0;
+	padding: 3px 20px;
+}
+#dt_colvis .dropdown-menu input {
+	margin: -1px 7px 0 0;
+}
+/* ColFilters dropdown */
+.dataTable th .dropdown-menu input[type="checkbox"] {
+	margin: -1px 7px 0 0;
+}
+.dataTable th .dropdown-menu label {
+	margin: 0;
+	padding: 3px 20px;
+}
+
+
+/* Selecting rows */
+.dataTable tbody tr {
+	cursor: default;
+	*cursor: default;
+}
+.dataTable tr.row_selected td {
+	background-color: rgba(196, 212, 231, 0.5) !important;
+}
+.dataTable tr.core_field td {
+	background-color: rgba(000, 000, 000, 0.2) !important;
+}
+.dataTable tr.core_field.row_selected td {
+	background-color: rgba(000, 000, 000, 0.2) !important;
+}
+
+
+/* Sorting */
+.dataTable .header form {
+	margin: 0 5px;
+}
+.dataTable .header form input {
+	margin: 10px 0 0;
+}
+.dataTable .header {
+	cursor: pointer;
+	width: auto !important;
+	background-color: rgba(204,204,204,0.25);
+}
+.dataTable .header:after {
+	content: "";
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #000 transparent;
+	visibility: hidden;
+}
+.dataTable .headerSortUp, .dataTable .headerSortDown {
+	background-color: rgba(204,204,204,0.75);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+.dataTable .headerSortDown:after,
+.dataTable .headerSortDown:hover:after {
+	visibility: visible;
+	filter: alpha(opacity=60);
+	  -khtml-opacity: 0.6;
+	 -moz-opacity: 0.6;
+	opacity: 0.6;
+}
+.dataTable .headerSortUp:after {
+	border-bottom: none;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #000;
+	visibility: visible;
+	  -webkit-box-shadow: none;
+	 -moz-box-shadow: none;
+	box-shadow: none;
+	filter: alpha(opacity=60);
+	  -khtml-opacity: 0.6;
+	 -moz-opacity: 0.6;
+	opacity: 0.6;
+}
